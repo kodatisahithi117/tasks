@@ -1,0 +1,8 @@
+<div class = "display">
+    <div class="user-list">
+        <app-user-list (userId)="showUserDetails($event)"></app-user-list>
+    </div>
+    <div class="details">
+        <router-outlet></router-outlet>
+    </div>
+</div>
