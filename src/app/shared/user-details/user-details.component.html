@@ -1,0 +1,51 @@
+<div class="card">
+    <div class="card-body">
+        <div class = "title">
+            <strong>{{user.firstName}} {{user.lastname}}</strong>
+        </div>
+        <div *ngIf="user.isDeleted" style="color:red;">
+            Deleted
+        </div>
+        <div *ngIf="!user.isDeleted" style="color:green;">
+            Active
+        </div>
+        
+        <div class = "row">
+            <p class = "col">
+                Login name
+            </p>
+            <p class="col">
+                {{user.login}}
+            </p>
+        </div>
+        
+
+        <div class = "row">
+            <p class = "col">
+                First Name
+            </p>
+            <p class="col">
+                {{user.firstName}}
+            </p>
+        </div>
+
+        <div class = "row">
+            <p class = "col">
+               Last Name
+            </p>
+            <p class="col">
+                {{user.lastname}}
+            </p>
+        </div>
+
+        <div class = "row">
+            <p class = "col">
+                Age
+            </p>
+            <p class="col">
+                {{user.age}}
+            </p>
+        </div>
+
+    </div>
+</div>

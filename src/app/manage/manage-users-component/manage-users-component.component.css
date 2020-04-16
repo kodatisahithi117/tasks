@@ -1,0 +1,11 @@
+.display{
+    display: flex;
+}
+
+.user-list{
+    width: 50%;
+}
+
+.details{
+    width: 50%;
+}

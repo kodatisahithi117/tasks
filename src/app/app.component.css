@@ -1,0 +1,19 @@
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;    
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a{
+    
+    margin-right: 10px;
+    font-size: larger;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right:20px;
+}

@@ -1,0 +1,11 @@
+
+<div class="nav-bar">
+  <div routerLinkActive="active" [routerLinkActiveOptions]={exact:true}><a routerLink='/'>Home</a></div>
+  <div routerLinkActive="active"><a routerLink='active'>Active</a></div>
+  <div routerLinkActive="active"><a routerLink='deleted'>Deleted</a></div>
+  <div routerLinkActive="active"><a routerLink='manage'>Manage</a></div>
+</div>
+
+<hr>
+
+<router-outlet></router-outlet>

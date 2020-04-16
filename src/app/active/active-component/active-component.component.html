@@ -1,0 +1,11 @@
+<div *ngFor="let user of usersList">
+    <div class="card border border-success">
+          <div class= "card-title">
+            {{user.firstName}} {{user.lastname}}
+          </div> 
+          <div>
+              <button type="button" class="btn btn-danger float-right">Deactivate</button>
+          </div> 
+    </div>
+</div> 
+

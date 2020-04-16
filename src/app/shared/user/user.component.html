@@ -1,0 +1,17 @@
+<div *ngIf="user.isDeleted">
+    <div class="card border border-danger">
+        <div class= "card-body">
+            <div class="card-title">{{user.firstName}} {{user.lastname}}</div>
+            <button type="button" class="btn btn-primary float-right" (click)="showDetails(user.id)">Details</button>
+        </div>  
+    </div>
+</div>
+
+<div *ngIf="!user.isDeleted">
+    <div class="card border border-success">
+        <div class= "card-body">
+          <div class="card-title">{{user.firstName}} {{user.lastname}}</div>
+          <button type="button" class="btn btn-primary float-right" (click)="showDetails(user.id)">Details</button>
+        </div> 
+    </div>
+</div>
